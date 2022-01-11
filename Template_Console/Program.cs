@@ -10,8 +10,7 @@ namespace template_generic
 
         public void WhoAmI()
         {
-            Console.WriteLine("My name is " + Name + ".");
-            Console.WriteLine("My ears are " + EarSize + " inches tall.");
+            
         }
 
 
