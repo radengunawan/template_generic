@@ -27,10 +27,12 @@ namespace template_generic
 
             char sender = Console.ReadKey(true).KeyChar;
             int sender_index = (int)sender - 48;
+            Console.WriteLine("You choose " + sender_index.ToString()+" as sender"); //<--Must, since C# not show while we input
 
             Console.Write("\nReceiver index: ");
             char receiver = Console.ReadKey(true).KeyChar;
             int receiver_index = (int)receiver - 48;
+            Console.WriteLine("You choose " + receiver_index.ToString() + " as receiver"); //<--Must, since C# not show while we input
 
             // ---- DON'T WRITE BEYOND THIS LINE------------
         }// END of Main program
